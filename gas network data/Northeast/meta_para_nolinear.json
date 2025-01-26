@@ -1,0 +1,67 @@
+{
+    "enable_nonlinear": "True",
+    "compression_factor_mode": "AGA8",
+    "C0": 0.03848,
+    "test": "None",
+    "enable_elevation": true,
+    "artifical demand and supply": true,
+    "unit_size": 100.0,
+    "demand_lower_adjustment": 0.80,
+    "supply_lower_adjustment": 1.0,
+    "supply_upper_adjustment": 1.0,
+    "demand_upper_adjustment": 1.0,
+    "relative_penalty_supply_slack": 2,
+    "visual_threshold_exceeding": 1,
+    "visual_threshold_lack": 30,
+    "network simplify": false,
+    "node_merge_qty_th": 30,
+    "demand relaxation": 0.9,
+    "supply relaxation": 0.9,
+    "pressure_scaler": 10.0,
+    "fp_scaler": 1,
+    "solver": "gurobi",
+    "initialize": false,
+    "direction_fixed": false,
+    "direction_fixed_by_flow_th": -1,
+    "direction_fixed_after_simplification": false,
+    "gurobi_control_paras": {
+        "mipgap": 0.5,
+        "timelimit": 3600
+    },
+    "partition": -1,
+    "elevation_threshold": 100.0,
+    "friction_mode": "Sim_Col",
+    "simplify_network": false,
+    "simplify_threshold": 10.0,
+    "mipgap": 0.5,
+    "timelimit": 1600.0,
+    "resolve": false,
+    "pipe_storage_max_chg": 0.03,
+    "multi_period": [
+        {
+            "idx": 1,
+            "days": 1,
+            "sub_path": "/202003Data"
+        },
+        {
+            "idx": 2,
+            "days": 1,
+            "sub_path": "/202004Data"
+        },
+        {
+            "idx": 3,
+            "days": 1,
+            "sub_path": "/202005Data"
+        },
+        {
+            "idx": 4,
+            "days": 1,
+            "sub_path": "/202006Data"
+        },
+        {
+            "idx": 5,
+            "days": 1,
+            "sub_path": "/202007Data"
+        }
+    ]
+}
